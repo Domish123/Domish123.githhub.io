@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rincón Gaming - Noticias y Novedades</title>
+    <meta name="description" content="Rincón Gaming: Noticias, novedades, videos y reviews del mundo gaming.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+    <!-- Menú de Navegación -->
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Rincón Gaming</h1>
+        </div>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="noticia.html">Noticias</a></li>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Slider Principal -->
+    <div class="swiper main-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide-1">
+                <div class="slide-content">
+                    <h2>Últimas Noticias</h2>
+                    <p>Descubre las novedades más importantes del mundo gaming</p>
+                </div>
+            </div>
+            <div class="swiper-slide slide-2">
+                <div class="slide-content">
+                    <h2>Reviews Exclusivas</h2>
+                    <p>Análisis detallados de los juegos más populares</p>
+                </div>
+            </div>
+            <div class="swiper-slide slide-3">
+                <div class="slide-content">
+                    <h2>Eventos Gaming</h2>
+                    <p>Mantente al día con los eventos más importantes</p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+     <!-- Video Destacado -->
+     <section id="video-destacado" class="video-destacado">
+        <div class="video-container">
+            <h2>Video Destacado</h2>
+            <div class="video-wrapper">
+                <iframe 
+                    src="https://www.youtube.com/embed/VQRLujxTm3c" 
+                    title="Video Destacado" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Noticias -->
+    <section id="noticias" class="noticias-section">
+        <h2 class="section-title">Últimas Noticias</h2>
+        <div class="noticias-grid">
+            <article class="noticia-card animate-slide">
+                <div class="noticia-content">
+                    <h3>GTA VI</h3>
+                    <p>GTA VI ha revelado su segundo tráiler oficial, mostrando más detalles sobre la relación entre Jason y Lucía.</p>
+                </div>
+            </article>
+            <article class="noticia-card animate-slide">
+                <div class="noticia-content">
+                    <h3>Elden Ring</h3>
+                    <p>Elden Ring: Nightreign ajustará su dificultad basándose en los datos de su beta.</p>
+                </div>
+            </article>
+            <article class="noticia-card animate-slide">
+                <div class="noticia-content">
+                    <h3>DOOM</h3>
+                    <p>DOOM: The Dark Ages ya está disponible para reserva, con un póster exclusivo como regalo.</p>
+                </div>
+            </article>
+            <article class="noticia-card animate-slide">
+                <div class="noticia-content">
+                    <h3>Xbox</h3>
+                    <p>Microsoft ha aumentado el precio de las consolas Xbox y sus mandos en todo el mundo.</p>
+                </div>
+            </article>
+            <article class="noticia-card animate-slide">
+                <div class="noticia-content">
+                    <h3>Ecco the Dolphin</h3>
+                    <p>Ecco the Dolphin regresará con dos remasterizaciones y una nueva entrega.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Sección de Videos -->
+    <section id="videos" class="videos-section">
+        <h2>Videos Destacados</h2>
+        <div class="videos-grid">
+            <div class="video-card">
+                <div class="video-wrapper">
+                    <iframe 
+                        src="https://www.youtube.com/embed/8X2kIfS6fb8" 
+                        title="Cyberpunk- Tráiler Oficial" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <h3>Cyberpunk 2077 - Tráiler Oficial</h3>
+            </div>
+            <div class="video-card">
+                <div class="video-wrapper">
+                    <iframe 
+                        src="https://www.youtube.com/embed/1O6Qstncpnc" 
+                        title="The hobbit - Tráiler Oficial" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <h3>HOGWARTS LEGACY - Tráiler Oficial</h3>
+            </div>
+            <div class="video-card">
+                <div class="video-wrapper">
+                    <iframe 
+                        src="https://www.youtube.com/embed/6OnoJ1BcQtk" 
+                        title="Cyberpunk 2077 - Tráiler Oficial" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <h3>Cyberpunk 2077 - Tráiler Oficial</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Rincón Gaming</h3>
+                <p>Tu fuente de noticias y novedades del mundo gaming</p>
+            </div>
+            <div class="footer-section">
+                <h3>Redes Sociales</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p>Email: info@rincon-gaming.com</p>
+                <p>Tel: +123 456 7890</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Rincón Gaming. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
